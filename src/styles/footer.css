@@ -1,68 +1,78 @@
 .footer-div {
-  width: 100%;
-  height: 336px;
-  background: #ffeb3b;
-  margin: 160px 0 0 0;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: 336px;
+    background: #ffeb3b;
+    margin: 160px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-image {
-  margin: 0 64px;
+    margin: 0 64px;
 }
 
 .footer-wrapper-left {
-  margin: 48px 0 0 0;
-  display: flex;
+    margin: 48px 0 0 0;
+    display: flex;
 }
 
 .footer-wrapper-right {
-  margin: 48px 0 0 0;
-  display: flex;
+    margin: 48px 0 0 0;
+    display: flex;
 }
 
 .footer-list {
-  width: 120px;
+    width: 120px;
 }
 
 .footer-list:nth-child(n+2) {
-  margin: 0 0 0 64px;
+    margin: 0 0 0 64px;
 }
 
 .footer-list-header {
-  font-family: RalewayMedium;
-  font-size: 24px;
-  line-height: 32px;
-  color: #000000;
+    font-family: RalewayMedium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
 }
 
 .footer-list-item {
-  font-family: RalewayRegular;
-  font-size: 24px;
-  line-height: 32px;
-  color: #000000;
+    font-family: RalewayRegular;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
 }
 
 .footer-list-item:hover {
-  color: #c8b900;
-  transition: 0.3s;
+    color: #c8b900;
+    transition: 0.3s;
 }
 
-.footer-list-item:not(:hover){
-  color: #000000;
-  transition: 1s;
+.footer-list-item:not(:hover) {
+    color: #000000;
+    transition: 1s;
 }
 
 .footer-watermark {
-  font-family: RalewayMedium;
-  font-size: 24px;
-  line-height: 16px;
-  color: #000000;
-  position: absolute;
-  margin: 232px 0 0 0;
+    font-family: RalewayMedium;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    position: absolute;
+    margin: 232px 0 0 0;
+}
+
+.footer-watermark-mobile {
+    overflow: hidden;
+    display: none;
+}
+
+.footer-links {
+    overflow: hidden;
+    display: none;
 }
 
 .hidden {
-  overflow: hidden;
-  display: none;
+    overflow: hidden;
+    display: none;
 }
