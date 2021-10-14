@@ -1,0 +1,318 @@
+@media (min-width: 0px) and (max-width: 619px) {
+    .banner {
+        height: 64px;
+        margin: 32px 0 0 0;
+        font-size: 18px;
+        font-family: RalewaySemiBold;
+    }
+
+    .banner-image {
+        width: 40px;
+        /*overflow: hidden;*/
+        /*display: none;*/
+    }
+
+    .div-header {
+        font-family: RalewaySemiBold;
+        font-size: 32px;
+        margin: 64px 0 0 0;
+    }
+
+    /* -------------------- header -------------------- */
+    .header-background {
+        max-height: 320px;
+    }
+
+    .header-dots {
+        background-image: url('../images/mobile/m-bg-dots.svg');
+    }
+
+    .header-content-wrapper {
+        margin-top: calc(-320px + 16px);
+        padding: 0 16px;
+    }
+
+    .header-content-top {
+        margin: 0;
+    }
+
+    .hello {
+        min-width: calc(256px - 32px);
+        padding: 16px;
+    }
+
+    .hello-image {
+        width: 64px;
+    }
+
+    .hello-text {
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0 0 6px 16px;
+    }
+
+    .menu-wrapper {
+        overflow: hidden;
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: flex;
+        overflow: visible;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    .mobile-menu-button-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mobile-menu-button-image-black {
+        position: absolute;
+        right: 16px;
+        width: 48px;
+        height: 48px;
+        margin: 16px 0 40px 0;
+    }
+
+    .mobile-menu-wrapper {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        width: calc(100vw - 32px);
+        background-color: #ffeb3b;
+        position: absolute;
+        box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        align-items: center;
+    }
+
+    .mobile-menu {
+        text-align: center;
+        margin: 104px 0 66px 0;
+    }
+
+    .mobile-menu-item-link {
+        font-family: RalewayMedium;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000;
+    }
+
+    .mobile-menu-item-link:visited {
+        color: #000000;
+    }
+
+    .header-content-bottom {
+        margin: 16px 0 0 0;
+    }
+
+    .who {
+        font-size: 32px;
+        line-height: 36px;
+        padding: 16px;
+        max-width: 332px;
+    }
+
+    .mail {
+        overflow: hidden;
+        display: none;
+    }
+
+    .mail-form {
+        overflow: hidden;
+        display: none;
+    }
+
+    /* -------------------- about -------------------- */
+    .about-background {
+        height: 88vh;
+        margin: 168px 0 0 0;
+    }
+
+    .galactic {
+        margin: calc(-88vh - 75vw / 2) 0 0 0;
+    }
+
+    .galactic-sun {
+        max-width: 75vw;
+        max-height: 75vw;
+    }
+
+    .galactic-planet {
+        overflow: hidden;
+        display: none;
+    }
+
+    .about-me-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 0 0 0;
+        padding: 0 16px;
+    }
+
+    .about-me {
+        padding: 16px;
+        margin: 0 0 16px 0;
+        max-width: 350px;
+    }
+
+    .about-me-logo {
+        width: 24px;
+    }
+
+    .about-me-heading {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .about-me-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* -------------------- projects -------------------- */
+    .projects-background {
+        height: 356px;
+        margin: 64px 0 0 0;
+    }
+
+    .projects-wrapper {
+        overflow: hidden;
+        display: none;
+    }
+
+    .mobile-projects {
+        display: flex;
+        overflow: visible;
+        padding: 0 16px;
+        margin: calc(-356px - 32px) 0 0 0;
+    }
+
+    .mobile-projects-column:nth-child(1) {
+        margin: 0 16px 0 0;
+    }
+
+    .mobile-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(50vw - 24px);
+        max-width: 170px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        margin: 0 0 16px 0;
+    }
+
+    .mobile-project:nth-child(3n) {
+        margin: 0 0 0 0;
+    }
+
+    .mobile-project-image {
+        width: 64px;
+        margin: 16px 0;
+    }
+
+    .mobile-project-name {
+        font-family: RalewayRegular;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        max-width: 133px;
+        margin: 0 0 16px 0;
+    }
+
+
+    /* -------------------- contacts -------------------- */
+    .contacts-background {
+        display: none;
+        overflow: hidden;
+    }
+
+    .contacts-letter {
+        max-width: calc(100vw - 32px);
+        margin: 32px 0 0 0;
+    }
+
+    .contacts-tagline {
+        margin: calc(-100vw + 80px) 0 92px 0;
+    }
+
+    .contacts-tagline-text {
+        font-family: RalewayRegular;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .contacts-mail {
+        height: 48px;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 16px;
+    }
+
+    .contacts-mail-image {
+        overflow: hidden;
+        display: none;
+    }
+
+    /* -------------------- footer -------------------- */
+    .footer-div {
+        max-width: 100vw;
+        flex-direction: column;
+        justify-content: normal;
+        margin: 0;
+    }
+
+    .footer-image {
+        margin: 0;
+    }
+
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
