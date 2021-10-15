@@ -73,10 +73,9 @@
 
     .mobile-menu-button-image-black {
         position: absolute;
-        right: 8px;
-        width: 48px;
-        height: 48px;
-        margin: 8px 0 40px 0;
+        right: 24px;
+        width: 32px;
+        margin: 24px 0 40px 0;
     }
 
     .mobile-menu-wrapper {
@@ -97,8 +96,8 @@
     }
 
     .mobile-menu-item-link {
-        font-family: RalewayRegular;
-        font-size: 30px;
+        font-family: RalewayMedium;
+        font-size: 24px;
         line-height: 42px;
         color: #000000;
     }
@@ -140,6 +139,13 @@
     }
 
     .galactic-sun {
+        display: none;
+        overflow: hidden;
+    }
+
+    .galactic-sun-mobile {
+        display: flex;
+        overflow: visible;
         max-width: 75vw;
         max-height: 75vw;
     }
@@ -178,7 +184,7 @@
 
     /* -------------------- projects -------------------- */
     .projects-background {
-        height: 356px;
+        height: 404px;
         margin: 64px 0 0 0;
         background: linear-gradient(180deg, #F5F5F6 95%, #FFFFFF 100%);
     }
@@ -192,7 +198,7 @@
         display: flex;
         overflow: visible;
         padding: 0 16px;
-        margin: calc(-356px - 32px) 0 0 0;
+        margin: calc(-404px - 32px) 0 0 0;
     }
 
     .mobile-projects-column:nth-child(1) {
@@ -216,8 +222,8 @@
     }
 
     .mobile-project-image {
-        width: 64px;
-        margin: 16px 0;
+        width: 72px;
+        margin: 32px 0 16px 0;
     }
 
     .mobile-project-name {
@@ -244,6 +250,7 @@
 
     .mobile-posts-wrapper {
         display: flex;
+        overflow: visible;
         flex-direction: column;
         padding: 0 16px;
         margin: calc(-436px - 32px) 0 0 0;
